@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/bck1">
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:src="@drawable/dma"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:src="@drawable/gma"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageButton4"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="99dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/port" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="63dp"
+        android:layout_marginStart="22dp"
+        android:text="Page 2"
+        android:textColor="#8B0000"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="75dp"
+        android:layout_height="31dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginStart="116dp"
+        android:background="#FF0000"
+        android:text="1" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="118dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/button6"
+        android:layout_marginEnd="19dp"
+        android:background="#FF0000"
+        android:text="BACK TO HOMEPAGE" />
+</RelativeLayout>
